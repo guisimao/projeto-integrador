@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    background-color: darkred;
+    position: fixed;
+    
+}
+
+body{
+    background-color: rgb(rgb(224, 102, 65));
+}
+
+#menu{
+
+}
