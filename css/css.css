@@ -18,3 +18,8 @@ header{
     align-items: center;
     padding: 20px;
 }
+
+body{
+    background-color: linear-gradient(180deg, red, rgb(211, 115, 91));
+    margin-top: 75px;
+}
