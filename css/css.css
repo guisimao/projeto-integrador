@@ -2,13 +2,19 @@ header{
     display: flex;
     background-color: darkred;
     position: fixed;
-    
-}
-
-body{
-    background-color: rgb(rgb(224, 102, 65));
+    width: 100%;
+    top: 0;
 }
 
 #menu{
-
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 100px;
+    height: 35px;
+    color: seashell;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    align-items: center;
+    padding: 20px;
 }
