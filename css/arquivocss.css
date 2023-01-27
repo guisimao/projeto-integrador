@@ -9,6 +9,7 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
+    text-align: center;
 }
 
 #oquesao{
@@ -32,6 +33,7 @@ header{
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
+    text-align: center;
 }
 
 #totipotentes{
@@ -86,6 +88,7 @@ header{
 
 #menu{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     width: 100%;
     min-width: 100px;
@@ -100,11 +103,14 @@ header{
 }
 
 #inicio{
+    justify-content: center;
     margin-left: 300px;
     margin-right: 300px;
+    text-align: center;
 }
 
 body{
+    justify-content: center;
     background-image: linear-gradient(180deg, rgb(192, 54, 54), rgb(233, 153, 133) 50%, rgb(192, 54, 54));
     margin-top: 75px;
     color: seashell;
@@ -165,6 +171,7 @@ a:link {
   }
 
   #imagem-inicio{
+    justify-content: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
