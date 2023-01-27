@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+} 
+
+header{
+    display: flex;
+    background-color: darkred;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#oquesao{
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.caixa{
+    box-shadow: 5px 10px 5px rgb(118, 30, 30);
+    background-color: rgb(142, 80, 160);
+    padding: 10px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#tipos{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#totipotentes{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#pluripotentes{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#multipotentes{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#oligopotentes{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#unipotentes{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#uso{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#uso2{
+    margin-top: 20px;
+}
+
+#uso3{
+    margin-top: 20px;
+}
+
+#referencias{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 100px;
+    height: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: seashell;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 15px;
+    align-items: center;
+    padding: 20px;
+}
+
+#inicio{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+body{
+    background-image: linear-gradient(180deg, rgb(192, 54, 54), rgb(233, 153, 133) 50%, rgb(192, 54, 54));
+    margin-top: 75px;
+    color: seashell;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+#rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: darkred;
+    width: 100%;
+    margin-top: 50px;
+    height: 100px;
+    bottom: 0;
+    color: seashell;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 8px;
+    align-items: center;
+}
+
+#creditos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: darkred;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    color: seashell;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 8px;
+    align-items: center;
+}
+
+a:link {
+    color: seashell;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: seashell;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: seashell;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: seashell;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  #imagem-inicio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
