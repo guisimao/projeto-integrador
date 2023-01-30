@@ -8,24 +8,33 @@
     <link rel="stylesheet" type="text/css" href="css/arquivocss.css" media="screen"/>
     <title>Projeto Integrador - Células-Tronco</title>
 </head>
+<body> 
 <header>
-    <div id="menu">
-        <p><a href="#oquesao">O que são</a></p>
-        <p><a href="#tipos">Tipos</a></p>
-        <p><a href="#uso">Uso na medicina</a></p>
-        <p>Github</p>
-    </div>
+        <div id="menu">
+            <p><a href="#oquesao">O que são</a></p>
+            <div class="dropdown">
+                <button onclick="dropdown()" class="dropbtn">Tipos</button>
+                <div id="dropdown" class="dropdown-content">
+                  <a href="#totipotentes">Totipotentes</a>
+                  <a href="#pluripotentes">Pluripotentes</a>
+                  <a href="#multipotentes">Multipotentes</a>
+                  <a href="#oligopotentes">Oligopotentes</a>
+                  <a href="#unipotentes">Unipotentes</a>
+                </div>
+              </div> 
+            <p><a href="#uso">Uso na medicina</a></p>
+            <p>Github</p>
+        </div>
     <hr>
 </header>
-<body> 
     <div id="inicio">
         <h1>Projeto Integrador</h1>
         <h1>Células-Tronco</h1>
         <h3>Seja bem-vindo a nossa página! Fique a vontade para navegar por ela. O objetivo dela é explicar o que são as células-tronco, suas classificações e o uso dessas células na medicina. Com certeza você vai sair sabendo mais.</h3>
-        <img src="imgs/imagens/celulas-tronco-inicio.jpg" id="imagem-inicio"></img>
-        <hr>
     </div>
-    <div id="oquesao" class="caixa"><a name="oquesao"></a>
+    <div><a name="oquesao"></a></div>
+    <div><img src="imgs/imagens/celulas-tronco-inicio.jpg" id="imagem-inicio"></img></div>
+    <div id="oquesao" class="caixa">
         <h1>O que são?</h1>
         <p>São células com capacidade de autorrenovação e de diferenciação em diversas categorias funcionais de células. Ou seja, as células-tronco têm capacidade de se dividir e se transformar em outros tipos de células. Elas podem ser programadas para desenvolver funções específicas, uma vez que se encontram em um estágio em que ainda não estão totalmente especializadas.</p>
 
@@ -37,7 +46,7 @@
         <h2>Células-Tronco Totipotentes</h2>
         <p>As células-tronco totipotentes são as mais incrível que há, pois têm a capacidade em formar qualquer célula que você pensar, sejam células cardiovasculares, ósseas, epiteliais, cerebrais ou células musculares. Pode incluir tecidos extraembrionários, como a placenta ou o cordão umbilical. Apesar de sua utilidade sem igual, após formar estas outras células, ela mesmo deixa de existir após esse processo. </p>
         <p>Menção honrosa ao zigoto: A única célula que tem as características citadas acima é o zigoto, ou ovo. Essa célula é o resultado da fecundação duma gameta masculina com uma feminina, respectivamente do espermatozoide e do óvulo. O período do zigoto é curto, durando aproximadamente quatro dias. Por volta do quinto dia, a massa de célula muda de nome, sendo chamada de blastocisto, que é o início do período embrionário. É razoável pensar que durante esse período, o zigoto vai formando as importantes células e tecidos que vão compor o bebê.</p>
-
+        <div class="posicaovideo"><iframe width="1280" height="720" src="https://www.youtube.com/embed/LWQq70VXEdQ" title="O que são Células-Tronco e Células-Tronco Totipotentes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos"></iframe></div>
     </div>
     <div id="pluripotentes"><a name="pluripotentes"></a>
         <h2>Células-Tronco Pluripotentes</h2>
@@ -66,7 +75,7 @@
     <div id="unipotentes"><a name="unipotentes"></a>
         <h2>Células-Tronco Unipotentes</h2>
         <p>Células-tronco unipotentes: Essas células-tronco, diferentemente das demais, não apresentam grande capacidade de diferenciação, sendo capazes apenas de formar células do tecido ao qual pertencem. Aquelas células que se diferenciam em um único tecido. Exemplos: Astrócitos (regeração neuronal) e eritroblastos (vai se diferenciar de uma hemácia).</p>
-
+        <div class="posicaovideo"><iframe width="1280" height="704" src="https://www.youtube.com/embed/9OTupmtMZOQ" title="Células-Tronco Unipotentes e Uso das Células-Tronco na Medicina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos"></iframe></div>
     </div>
     <div id="uso"><a name="uso"></a>
         <h1 align="center">Uso na Medicina</h1>
@@ -93,7 +102,7 @@
 
     </div>
     <div id="referencias"><a name="referencias"></a>
-        <h1>Referências Bibliográficas</h1>
+        <h1 align="center">Referências Bibliográficas</h1>
         <p>EQUIPE EDITORIAL DO TUA SAÚDE (ed.). Como funciona o tratamento com células tronco. Tua Saúde: Marcela Lemos, 2021. Disponível em: https://www.tuasaude.com/tratamento-com-celulas-tronco/. Acesso em: 15 nov. 2022.</p>
         <p>CÉLULAS-TRONCO: As células-tronco são capazes de se transformar em diferentes tipos celulares, o que as torna importantes no estudo do tratamento de doenças degenerativas.. Ma. Vanessa dos Santos. [S. l.], 2020. Disponível em: https://www.biologianet.com/biologia-celular/celulas-tronco.htm. Acesso em: 15 nov. 2022.</p>
     </div>
