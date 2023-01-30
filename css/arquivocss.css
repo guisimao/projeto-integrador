@@ -100,12 +100,13 @@ header{
     font-size: 15px;
     align-items: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 #inicio{
     justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -130,6 +131,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     font-size: 8px;
     align-items: center;
+    border-radius: 10px;
 }
 
 #creditos{
@@ -177,3 +179,67 @@ a:link {
     margin-right: auto;
     width: 100%;
   }
+
+  #imagem-inicio{
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+    box-shadow: 5px 10px 5px rgb(118, 30, 30);
+    border-radius: 10px;
+  }
+.videos{
+    max-height: 100%;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(142, 80, 160);
+    padding: 50px;
+    margin-top: 50px;
+    box-shadow: 5px 10px 5px rgb(118, 30, 30);
+    border-radius: 10px;
+}
+.posicaovideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropbtn {
+    background-color: darkred;
+    color: seashell;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: darkred;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(142, 80, 160);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: seashell;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(107, 41, 126);}
+
+  .show {display:block;}
