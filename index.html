@@ -11,6 +11,7 @@
 <body> 
 <header>
         <div id="menu">
+            <p><a href="#inicio">Início</a></p>
             <p><a href="#oquesao">O que são</a></p>
             <div class="dropdown">
                 <button onclick="dropdown()" class="dropbtn">Tipos</button>
@@ -23,14 +24,13 @@
                 </div>
               </div> 
             <p><a href="#uso">Uso na medicina</a></p>
-            <p>Github</p>
         </div>
     <hr>
 </header>
     <div id="inicio">
         <h1>Projeto Integrador</h1>
         <h1>Células-Tronco</h1>
-        <h3>Seja bem-vindo a nossa página! Fique a vontade para navegar por ela. O objetivo dela é explicar o que são as células-tronco, suas classificações e o uso dessas células na medicina. Com certeza você vai sair sabendo mais.</h3>
+        <div id="ola"><h3>Seja bem-vindo a nossa página! Fique a vontade para navegar por ela. O objetivo dela é explicar o que são as células-tronco, suas classificações e o uso dessas células na medicina. Com certeza você vai sair sabendo mais.</h3></div>
     </div>
     <div><a name="oquesao"></a></div>
     <div><img src="imgs/imagens/celulas-tronco-inicio.jpg" id="imagem-inicio"></img></div>
@@ -39,7 +39,7 @@
         <p>São células com capacidade de autorrenovação e de diferenciação em diversas categorias funcionais de células. Ou seja, as células-tronco têm capacidade de se dividir e se transformar em outros tipos de células. Elas podem ser programadas para desenvolver funções específicas, uma vez que se encontram em um estágio em que ainda não estão totalmente especializadas.</p>
 
     </div>
-    <div id="tipos"><a name="tipos"></a>
+    <div id="tipos">
     <h1>Tipos de células-tronco</h1>
     </div>
     <div id="totipotentes"><a name="totipotentes"></a>
@@ -51,11 +51,11 @@
     <div id="pluripotentes"><a name="pluripotentes"></a>
         <h2>Células-Tronco Pluripotentes</h2>
         <p>Diferentemente das células totipotentes, as células pluripotentes não são capazes gerar tecidos extraembrionários, ou seja, não são capazes de dar de origem a um organismo completo. Assim sendo, as células-tronco pluripotentes são um pouco menos versáteis em relação as totipotentes. As células plutipotentes podem ser encontradas em uma fase do desenvolvimento embrionário denominada de blastocito. A fase blastocito ocorre a partir do 5° dia de vida, sendo possível notar as células-tronco pluripotentes a partir de 32 a 64 células. As células-tronco denominadas de pluripotentes podem gerar as células dos folhetos embrionários. </p>
-        <ul>
+        <div id="listas"><ul>
             <li>Ectodermas: Origina a epiderme, sistema nervoso central e periférico e várias outras estruturas;</li>
             <li>Mesodermas: Origina as camadas musculares lisas, tecidos conjutivos, e é fonte de células do sangue e da medula óssea, esqueleto e dos orgãos excretores e reprodutores;</li>
             <li>Endodermas: Origina os revestimentos epiteliais das passagens respiratórias e trato gastrointestinal.</li>
-        </ul>
+        </ul></div>
 
     </div>
     <div id="multipotentes"><a name="multipotentes"></a>
@@ -63,19 +63,18 @@
         <p>Tendo um poder de diferenciação menor que células pluripotentes e maior que oligopotentes as células tronco multipotentes são aquelas que tem capacidade de formação tecidual, possibilitando assim sua regeneração. Esse tipo de células são variantes de um órgão específico e podem originar tecidos apenas do órgão de que derivam sendo células adultas e, portanto, tendo papel de diferenciação mais restrito.</p>
         <p>Um grande exemplo desse tipo de célula são as encontradas na medula óssea que dão origem a linhagem de células teciduais sanguíneas e de defesa – algumas hematopoéticas - e cordão umbilical como as mesenquimais que se diferenciam em osteoblastos (célula óssea), miócitos (célula muscular), adipócitos (célula de gordura) e condrócitos (célula de cartilagem).</p>
         <p>Esse tipo celular tem características bem semelhantes com as oligopotentes com ambas sendo formadoras de tecidos e classificadas por células adultas. A diferença básica entre elas seria apenas a especificação das diversificações celulares, com as oligopotentes seguindo uma linhagem menos abrangente.</p>
-
+        <div class="posicaovideo"><iframe width="1280" height="720" src="https://www.youtube.com/embed/T8nmQ-D-Z6g" title="Células-Tronco Multipotentes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos"></iframe></div></div>
     </div>
     <div id="oligopotentes"><a name="oligopotentes"></a>
         <h2>Células-Tronco Oligopotentes</h2>
         <p>Células tronco oligopotentes são células adultas (ou seja, têm a função de reparar e renovar tecidos do corpo) capazes de diferenciar-se em um número pequeno de tipos de células. Podem ser linfoides (associadas à eliminação de impurezas produzidas pelas células) e mieloides (associadas à criação de células sanguíneas, como hemácias e plaquetas).</p>
         <p>Como têm sua capacidade de diferenciação reduzida, podem diferenciar-se apenas entre células de parentesco extremamente próximo. Por exemplo, linfoblastos podem diferenciar-se entre linfócitos B e linfócitos T, mas jamais em hemácias; mesmo ambas originando de hemocitoblastos, sua relação é muito distante para a oligopotência.</p>
         <p>Exemplos de células oligopotentes são: mieloides (monócitos, macrófagos, neutrófilos, basófilos, eosinófilos, eritrócitos, plaquetas e células dendríticas) e linfoides (linfócitos T, linfócitos B e célula exterminadora natural).</p>
-
-    </div>
+        <div class="posicaovideo"><iframe width="1280" height="720" src="https://www.youtube.com/embed/gF6wFXgmo6A" title="Células-Tronco Oligopotentes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos"></iframe></div></div>
     <div id="unipotentes"><a name="unipotentes"></a>
         <h2>Células-Tronco Unipotentes</h2>
         <p>Células-tronco unipotentes: Essas células-tronco, diferentemente das demais, não apresentam grande capacidade de diferenciação, sendo capazes apenas de formar células do tecido ao qual pertencem. Aquelas células que se diferenciam em um único tecido. Exemplos: Astrócitos (regeração neuronal) e eritroblastos (vai se diferenciar de uma hemácia).</p>
-        <div class="posicaovideo"><iframe width="1280" height="704" src="https://www.youtube.com/embed/9OTupmtMZOQ" title="Células-Tronco Unipotentes e Uso das Células-Tronco na Medicina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos"></iframe></div>
+        <div class="posicaovideo"><iframe width="1280" height="720" src="https://www.youtube.com/embed/9OTupmtMZOQ" title="Células-Tronco Unipotentes e Uso das Células-Tronco na Medicina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos"></iframe></div>
     </div>
     <div id="uso"><a name="uso"></a>
         <h1 align="center">Uso na Medicina</h1>
@@ -89,13 +88,13 @@
         <div id="uso3">
             <h2>Doenças que podem ser tratadas com células-tronco</h2>
         <p>As células-tronco podem ser utilizadas no tratamento de diversas doenças, desde as mais comuns, como obesidade e osteoporose, até as mais graves, como o câncer por exemplo. Assim, as principais doenças que podem ser tratadas com as células-tronco são:</p>
-        <ul>
+        <div id="listas"><ul>
             <li>Doenças metabólicas: Obesidade, diabetes, doenças hepáticas, leucodistrofia metacromática, síndrome de Günther, adrenoleucodistrofia, doença de Krabbe e síndrome de Niemann Pick, por exemplo;</li>
             <li>Imunodeficiências: Hipogamaglobulinemia, artrite reumatoide, doença granulomatosa crônica e síndrome linfoproliferativa ligada ao cromossomo X;</li>        
             <li>Hemoglobinopatias: Doenças relacionadas à hemoglobina, como talassemia e anemia falciforme;</li>
             <li>Deficiências relacionadas à medula óssea: Anemia aplásica, doença de Fanconi, anemia sideroblástica, síndrome de Evans, hemoglobinúria paroxística noturna, dermatomiosite juvenil, xantogranuloma juvenil e doença de Glanzmann, por exemplo;</li>
             <li>Doenças oncológicas: Leucemia linfoblástica aguda, leucemia mieloide crônica, doença de Hodgkin, mielofibrose, leucemia mieloide aguda e tumores sólidos, por exemplo.</li>
-        </ul>
+        </ul></div>
         <p>Além dessas doenças, o tratamento com células tronco também pode ser benéfico em caso da já citada osteoporose, doenças cardíacas, Alzheimer, Parkinson, displasia do timo, traumatismo craniano e anoxia cerebral (ausência do oxigênio, também chamada de zona de morte. No caso da anoxia cerebral, ou seja, quando há falta de oxigênio no cérebro, o quadro é ainda mais perigoso, uma vez que pode levar à morte de neurônios e resultar em danos cerebrais irreversíveis.), por exemplo.</p>
         </div>
         <p>Devido ao avanço das pesquisas científicas, o tratamento com células tronco tem sido testado em diversas outras doenças, podendo ser disponibilizado para a população caso os resultados sejam positivos.</p>

@@ -37,6 +37,9 @@ header{
     margin-right: 150px;
     text-align: center;
 }
+#ola{
+    margin-top: 20px;
+}
 
 #totipotentes{
     margin-top: 50px;
@@ -118,6 +121,11 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 }
 
+#listas{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
 #rodape{
     display: flex;
     flex-wrap: wrap;
@@ -192,10 +200,10 @@ a:link {
 .videos{
     max-height: 100%;
     max-width: 100%;
-    width: 500px;
-    height: 500px;
+    width: 475px;
+    height: 475px;
     background-color: rgb(142, 80, 160);
-    padding: 50px;
+    padding: 35px;
     margin-top: 50px;
     box-shadow: 5px 10px 5px rgb(118, 30, 30);
     border-radius: 10px;
@@ -243,7 +251,7 @@ a:link {
 
   .show {display:block;}
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:768px){
     #inicio, #totipotentes, #pluripotentes, #multipotentes, #oligopotentes, #unipotentes, #uso, #referencias, #oquesao{
         margin-top: 50px;
         margin-left: 75px;
