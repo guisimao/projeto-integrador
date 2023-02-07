@@ -108,8 +108,8 @@ header{
 
 #inicio{
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 150px;
+    margin-right: 150px;
     text-align: center;
 }
 
@@ -179,7 +179,7 @@ a:link {
     text-decoration: none;
   }
 
-  #imagem-inicio{
+#imagem-inicio{
     justify-content: center;
     display: block;
     margin-left: auto;
@@ -187,7 +187,7 @@ a:link {
     width: 100%;
   }
 
-  #imagem-inicio{
+#imagem-inicio{
     justify-content: center;
     display: block;
     margin-left: auto;
@@ -197,22 +197,42 @@ a:link {
     box-shadow: 5px 10px 5px rgb(118, 30, 30);
     border-radius: 10px;
   }
+
 .videos{
+    margin-top: 50px;
+    margin-left: 50%;
     max-height: 100%;
     max-width: 100%;
     width: 475px;
     height: 475px;
     background-color: rgb(142, 80, 160);
     padding: 35px;
-    margin-top: 50px;
     box-shadow: 5px 10px 5px rgb(118, 30, 30);
     border-radius: 10px;
 }
-.posicaovideo{
+.posicaovideos{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.imagens{
+    margin-top: 50px;
+    margin-right: 40%;
+    max-height: 100%;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(142, 80, 160);
+    padding: 35px;
+    box-shadow: 5px 10px 5px rgb(118, 30, 30);
+    border-radius: 10px;
+}
+.posicaoimagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .dropbtn {
     background-color: darkred;
     color: seashell;
@@ -257,4 +277,4 @@ a:link {
         margin-left: 75px;
         margin-right: 75px;
     }    
-}
+}   
