@@ -1,11 +1,13 @@
-*{
-    margin:0;
-    padding:0;
-} 
-html{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
     scroll-padding-top: 5em;
 }
-header{
+
+header {
     display: flex;
     background-color: darkred;
     position: fixed;
@@ -14,7 +16,7 @@ header{
     text-align: center;
 }
 
-#oquesao{
+#oquesao {
     align-items: center;
     text-align: center;
     justify-content: space-around;
@@ -23,7 +25,7 @@ header{
     margin-right: 150px;
 }
 
-.caixa{
+.caixa {
     box-shadow: 5px 10px 5px rgb(118, 30, 30);
     background-color: rgb(142, 80, 160);
     padding: 10px;
@@ -31,67 +33,68 @@ header{
     border-radius: 10px;
 }
 
-#tipos{
+#tipos {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
     text-align: center;
 }
-#ola{
+
+#ola {
     margin-top: 20px;
 }
 
-#totipotentes{
+#totipotentes {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-#pluripotentes{
+#pluripotentes {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-#multipotentes{
+#multipotentes {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-#oligopotentes{
+#oligopotentes {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-#unipotentes{
+#unipotentes {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-#uso{
+#uso {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-#uso2{
+#uso2 {
     margin-top: 20px;
 }
 
-#uso3{
+#uso3 {
     margin-top: 20px;
 }
 
-#referencias{
+#referencias {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-#menu{
+#menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -99,21 +102,21 @@ header{
     min-width: 100px;
     height: 30px;
     color: seashell;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     font-size: 15px;
     align-items: center;
     padding: 20px;
     border-radius: 10px;
 }
 
-#inicio{
+#inicio {
     justify-content: center;
     margin-left: 150px;
     margin-right: 150px;
     text-align: center;
 }
 
-body{
+body {
     justify-content: center;
     background-image: linear-gradient(180deg, rgb(192, 54, 54), rgb(233, 153, 133) 50%, rgb(192, 54, 54));
     margin-top: 75px;
@@ -121,12 +124,12 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 }
 
-#listas{
+#listas {
     margin-left: 60px;
     margin-right: 60px;
 }
 
-#rodape{
+#rodape {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -136,12 +139,12 @@ body{
     height: 100px;
     bottom: 0;
     color: seashell;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     font-size: 10px;
     align-items: center;
 }
 
-#creditos{
+#creditos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -150,7 +153,7 @@ body{
     height: 40px;
     bottom: 0;
     color: seashell;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     font-size: 10px;
     align-items: center;
 }
@@ -159,35 +162,35 @@ a:link {
     color: seashell;
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:visited {
-    color: seashell;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: seashell;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:active {
-    color: seashell;
-    background-color: transparent;
-    text-decoration: none;
-  }
+}
 
-#imagem-inicio{
+a:visited {
+    color: seashell;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: seashell;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: seashell;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#imagem-inicio {
     justify-content: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-  }
+}
 
-#imagem-inicio{
+#imagem-inicio {
     justify-content: center;
     display: block;
     margin-left: auto;
@@ -196,11 +199,10 @@ a:link {
     margin-top: 40px;
     box-shadow: 5px 10px 5px rgb(118, 30, 30);
     border-radius: 10px;
-  }
+}
 
-.videos{
+.videos {
     margin-top: 50px;
-    margin-left: 50%;
     max-height: 100%;
     max-width: 100%;
     width: 475px;
@@ -210,27 +212,23 @@ a:link {
     box-shadow: 5px 10px 5px rgb(118, 30, 30);
     border-radius: 10px;
 }
-.posicaovideos{
+
+.posicaomidias {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-.imagens{
+
+.imagens {
     margin-top: 50px;
-    margin-right: 40%;
     max-height: 100%;
     max-width: 100%;
-    width: 400px;
-    height: 400px;
+    width: 475px;
+    height: 475px;
     background-color: rgb(142, 80, 160);
     padding: 35px;
     box-shadow: 5px 10px 5px rgb(118, 30, 30);
     border-radius: 10px;
-}
-.posicaoimagem{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .dropbtn {
@@ -240,41 +238,56 @@ a:link {
     font-size: 16px;
     border: none;
     cursor: pointer;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
+}
+
+.dropbtn:hover, .dropbtn:focus {
     background-color: darkred;
-  }
-  
-  .dropdown {
+}
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
+}
 
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(142, 80, 160);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: seashell;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: rgb(107, 41, 126);}
+}
 
-  .show {display:block;}
+.dropdown-content a:hover {
+    background-color: rgb(107, 41, 126);
+}
 
-@media only screen and (max-width:768px){
-    #inicio, #totipotentes, #pluripotentes, #multipotentes, #oligopotentes, #unipotentes, #uso, #referencias, #oquesao{
+.show {
+    display: block;
+}
+
+@media only screen and (max-width:768px) {
+
+    #inicio, #totipotentes, #pluripotentes, #multipotentes, #oligopotentes, #unipotentes, #uso, #referencias, #oquesao {
         margin-top: 50px;
         margin-left: 75px;
         margin-right: 75px;
-    }    
-}   
+    }
+
+    .imagens {
+        margin-top: 50px;
+    }
+
+    .posicaomidias {
+        display: inline-block;
+        margin-left: -10%;
+        margin-right: 10%;
+    }
+}
