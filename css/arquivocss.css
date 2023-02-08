@@ -41,7 +41,7 @@ header {
 }
 
 #ola {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #totipotentes {
@@ -202,7 +202,7 @@ a:active {
 }
 
 .videos {
-    margin-top: 50px;
+    margin-top: 40px;
     max-height: 100%;
     max-width: 100%;
     width: 475px;
@@ -216,7 +216,7 @@ a:active {
 }
 
 .imagens {
-    margin-top: 50px;
+    margin-top: 40px;
     max-height: 100%;
     max-width: 100%;
     width: 475px;
@@ -289,6 +289,7 @@ a:active {
         margin-left: 75px;
         margin-right: 75px;
     }
+    
     .imagens {
         margin-top: 50px;
      }
