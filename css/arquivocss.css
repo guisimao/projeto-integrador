@@ -223,8 +223,8 @@ a:active {
     margin-top: 50px;
     max-height: 100%;
     max-width: 100%;
-    width: 475px;
-    height: 475px;
+    width: 450px;
+    height: 450px;
     background-color: rgb(142, 80, 160);
     padding: 35px;
     box-shadow: 5px 10px 5px rgb(118, 30, 30);
@@ -280,10 +280,9 @@ a:active {
         margin-left: 75px;
         margin-right: 75px;
     }
-
     .imagens {
         margin-top: 50px;
-    }
+     }
 
     .posicaomidias {
         display: inline-block;
